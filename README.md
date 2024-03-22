@@ -1,0 +1,1 @@
+My "final project" for [this](https://youtu.be/mJgBOIoGihA?si=6b3zbnQf7j8DSw5n) tutorial by Dave Gray. Turns out when people say HTML isn't programming, they really mean it! It's just formatting a web page ;b
