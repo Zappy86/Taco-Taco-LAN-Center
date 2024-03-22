@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Dominic Murphy">
+    <meta name="description" content="A website for the Taco Taco LAN Center">
+    <title>Taco Taco LAN Center</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav aria-labelledby="navigation">
+        <h3 id="navigation">Navigation</h3>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="index.html#about">About <abbr
+                title="Taco Taco LAN Center">TTLC</abbr></a>
+          </li>
+          <li>
+            <a href="index.html#pricing">Pricing</a>
+          </li>
+          <li>
+            <a href="hours.html">Hours</a>
+          </li>
+        </ul>
+      </nav>
+      <figure>
+        <img
+          src="img/tacos_close_up_400x260.png"
+          alt="Tacos and drink"
+          title="Tacos and drink"
+          width="400"
+          height="267">
+        <figcaption>Tray of tacos</figcaption>
+      </figure>
+    </header>
+    <main>
+      <div>
+        <h2>Our Contact Form</h2>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send Us a Message</legend>
+            <div>
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="John Doe"
+                autocomplete="on"
+                required>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="johnlovestacos@msn.com"
+                autocomplete="on"
+                required>
+            </div>
+            <label for="message">Your Message:</label>
+            <div>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"></textarea>
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </div>
+      <article>
+        <h2>Our Location</h2>
+        <address>
+          123 Lately Gamey Way <br>
+          Tacoville TE
+        </address>
+        <br>
+        <div>
+          <p>Phone: <a href="tel:1234567890"
+              id="number">123&hyphen;456&hyphen;7890</a></p>
+        </div>
+        <br>
+        <a href="#">Back to Top</a>
+      </article>
+    </main>
+
+    <hr>
+
+    <footer>
+      <p>Copyright &copy; Taco Taco LAN Center 2024</p>
+    </footer>
+  </body>
+</html>
